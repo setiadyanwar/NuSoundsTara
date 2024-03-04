@@ -12,6 +12,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 	<script src="js/bootstrap.bundle.min.js"></script>
 
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo setiadyanwar.png">
+	<!-- Favicon -->
+	
 </head>
 <body>
 
@@ -20,13 +24,13 @@
  <div class="row top_1">
   <div class="col-md-3">
    <div class="top_1l pt-1">
-    <h3 class="mb-0"><a class="text-white" href="index.html"><i class="fa fa-video-camera col_red me-1"></i> Planet</a></h3>
+    <h3 class="mb-0"><a class="text-white" href="index.html"><img src="img/logo setiadyanwar.png" alt="Logo Setiadyanwar " width="50" height="50"> NuSoundsTara</a></h3>
    </div>
   </div>
   <div class="col-md-5">
    <div class="top_1m">
     <div class="input-group">
-				<input type="text" class="form-control bg-black" placeholder="Search Site...">
+				<input type="text" class="form-control bg-black" placeholder="Search your favorite concert...">
 				<span class="input-group-btn">
 					<button class="btn btn text-white bg_red rounded-0 border-0" type="button">
 						 Search</button>
@@ -52,7 +56,7 @@
 <section id="header">
 <nav class="navbar navbar-expand-md navbar-light" id="navbar_sticky">
   <div class="container">
-    <a class="navbar-brand text-white fw-bold" href="index.html"><i class="fa fa-video-camera col_red me-1"></i> Planet</a>
+    <a class="navbar-brand text-white fw-bold" href="index.html"><img src="img/logo setiadyanwar.png" alt="Logo Setiadyanwar " width="50" height="50"></i> NuSoundsTara</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -111,7 +115,7 @@
     <div class="carousel-item active">
       <img src="img/banner1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-md-block">
-       <h1 class="font_60"> Entertainment Planet</h1>
+       <h1 class="font_60"> Entertainment NuSoundsTara</h1>
 	   <h6 class="mt-3">
 	    <span class="col_red me-3">
 		 <i class="fa fa-star"></i>
@@ -1761,7 +1765,7 @@ Release Date: <span class="pull-right">2023</span></h6>
    <div class="row footer_1">
     <div class="col-md-4">
 	 <div class="footer_1i">
-	   <h3><a class="text-white" href="index.php"><i class="fa fa-video-camera col_red me-1"></i> Planet</a></h3>
+	   <h3><a class="text-white" href="index.php"><img src="img/logo setiadyanwar.png" alt="Logo Setiadyanwar " width="80" height="80"></i> NuSoundsTara</a></h3>
 	   <p class="mt-3">Lorem ipsum dolor sit amet consect etur adi pisicing elit sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet consect etur. </p>
 	   <h6 class="fw-normal"><i class="fa fa-map-marker fs-5 align-middle col_red me-1"></i> 5311 Ceaver Sidge Td.
 Pakland, DE 13507</h6>
