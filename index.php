@@ -636,7 +636,7 @@
  <div class="row trend_1">
   <div class="col-md-12">
    <div class="trend_1l">
-    <h4 class="mb-0"><i class="fa fa-youtube-play align-middle col_red me-1"></i> Trending <span class="col_red">Events</span></h4>
+    <h4 class="mb-0"><i class="fa fa-music align-middle col_red me-1"></i> Trending <span class="col_red">Events</span></h4>
    </div>
   </div>
  </div>
@@ -676,7 +676,7 @@
 		   <div class="popular_2i1lm1 clearfix">
 		      <div class="grid">
 		  <figure class="effect-jazz mb-0">
-			<a href="#"><img src="img/18.jpg" class="w-100" alt="img25"></a>
+			<a href="#"><img src="img/a.png" class="w-100" alt="img25"></a>
 		  </figure>
 	  </div>
 		   </div>
@@ -706,7 +706,7 @@
 		   <div class="popular_2i1lm1 clearfix">
 		      <div class="grid">
 		  <figure class="effect-jazz mb-0">
-			<a href="#"><img src="img/19.jpg" class="w-100" alt="img25"></a>
+			<a href="#"><img src="img/b.png" class="w-100" alt="img25"></a>
 		  </figure>
 	  </div>
 		   </div>
@@ -738,7 +738,7 @@
 		   <div class="popular_2i1lm1 clearfix">
 		      <div class="grid">
 		  <figure class="effect-jazz mb-0">
-			<a href="#"><img src="img/20.jpg" class="w-100" alt="img25"></a>
+			<a href="#"><img src="img/c.png" class="w-100" alt="img25"></a>
 		  </figure>
 	  </div>
 		   </div>
@@ -768,7 +768,7 @@
 		   <div class="popular_2i1lm1 clearfix">
 		      <div class="grid">
 		  <figure class="effect-jazz mb-0">
-			<a href="#"><img src="img/21.jpg" class="w-100" alt="img25"></a>
+			<a href="#"><img src="img/d.png" class="w-100" alt="img25"></a>
 		  </figure>
 	  </div>
 		   </div>
