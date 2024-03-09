@@ -98,70 +98,50 @@ https://templatemo.com/tm-583-festava-live
         </nav>
 
 
-        <section class="ticket-section section-padding">
-            <div class="section-overlay"></div>
-
+        <section class="about-section section-padding" id="section_2">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-10 mx-auto">
-                        <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                            <h2 class="text-center mb-4">Get started here</h2>
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                        <div class="services-info">
+                            <h2 class="text-white mb-4">About Festava 2022</h2>
 
-                            <div class="ticket-form-body">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <input type="text" name="ticket-form-name" id="ticket-form-name"
-                                            class="form-control" placeholder="Full name" required>
-                                    </div>
+                            <p class="text-white">Festava Live is free CSS template provided by TemplateMo website. This
+                                layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for
+                                your commercial website.</p>
 
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <input type="email" name="ticket-form-email" id="ticket-form-email"
-                                            pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address"
-                                            required>
-                                    </div>
+                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
+
+                            <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
+                                website without a permission.</p>
+
+                            <h6 class="text-white mt-4">Whole Night Party</h6>
+
+                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="about-text-wrap">
+                            <img src="images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
+
+                            <div class="about-text-info d-flex">
+                                <div class="d-flex">
+                                    <i class="about-text-icon bi-person"></i>
                                 </div>
 
-                                <input type="tel" class="form-control" name="ticket-form-phone"
-                                    placeholder="Ph 085-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
 
-                                <h6>Choose Ticket Type</h6>
+                                <div class="ms-4">
+                                    <h3>a happy moment</h3>
 
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="form-check form-control">
-                                            <input class="form-check-input" type="radio" name="TicketForm"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                Eary bird $120
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-12">
-                                        <div class="form-check form-check-radio form-control">
-                                            <input class="form-check-input" type="radio" name="TicketForm"
-                                                id="flexRadioDefault2">
-                                            <label class="form-check-label" for="flexRadioDefault2">
-                                                Standard $240
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <input type="number" name="ticket-form-number" id="ticket-form-number"
-                                    class="form-control" placeholder="Number of Tickets" required>
-
-                                <textarea name="ticket-form-message" rows="3" class="form-control"
-                                    id="ticket-form-message" placeholder="Additional Request"></textarea>
-
-                                <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                    <button type="submit" class="form-control">Buy Ticket</button>
+                                    <p class="mb-0">your amazing festival experience with us</p>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
+
                 </div>
+            </div>
         </section>
     </main>
 
