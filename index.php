@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Festava Live - Bootstrap 5 CSS Template</title>
+    <title>NuSoundsTara</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@ https://templatemo.com/tm-583-festava-live
                     <div class="col-lg-12 col-12 d-flex flex-wrap">
                         <p class="d-flex me-4 mb-0">
                             <i class="bi-person custom-icon me-2"></i>
-                            <strong class="text-dark">Welcome to Music Festival 2023</strong>
+                            <strong class="text-dark">Welcome to NuSoundsTara</strong>
                         </p>
                     </div>
 
@@ -55,7 +55,7 @@ https://templatemo.com/tm-583-festava-live
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    Festava Live
+                    NuSoundsTara
                 </a>
 
                 <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
@@ -105,9 +105,9 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
-                        <small>Festava Live Presents</small>
+                        <small>NuSoundsTara Presents</small>
 
-                        <h1 class="text-white mb-5">Night Live 2023</h1>
+                        <h1 class="text-white mb-5">Night Live 2024</h1>
 
                         <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
                     </div>
@@ -116,14 +116,14 @@ https://templatemo.com/tm-583-festava-live
                         <div class="date-wrap">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-clock me-2"></i>
-                                10 - 12<sup>th</sup>, Dec 2023
+                                20 - 22<sup>th</sup>, Feb 2024
                             </h5>
                         </div>
 
                         <div class="location-wrap mx-auto py-3 py-lg-0">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-geo-alt me-2"></i>
-                                National Center, United States
+                                Kopi Vokasi, Indonesia
                             </h5>
                         </div>
 
@@ -170,7 +170,7 @@ https://templatemo.com/tm-583-festava-live
 
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                         <div class="services-info">
-                            <h2 class="text-white mb-4">About Festava 2022</h2>
+                            <h2 class="text-white mb-4">About NuSoundsTara 2024</h2>
 
                             <p class="text-white">Festava Live is free CSS template provided by TemplateMo website. This
                                 layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for
