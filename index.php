@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NuSoundsTara</title>
+    <title>Festava Live - Bootstrap 5 CSS Template</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@ https://templatemo.com/tm-583-festava-live
                     <div class="col-lg-12 col-12 d-flex flex-wrap">
                         <p class="d-flex me-4 mb-0">
                             <i class="bi-person custom-icon me-2"></i>
-                            <strong class="text-dark">Welcome to NuSoundsTara</strong>
+                            <strong class="text-dark">Welcome to Music Festival 2023</strong>
                         </p>
                     </div>
 
@@ -54,11 +54,11 @@ https://templatemo.com/tm-583-festava-live
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    NuSoundsTara
+                <a class="navbar-brand" href="index.php">
+                    Festava Live
                 </a>
 
-                <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
+                <a href="ticket.php" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,7 @@ https://templatemo.com/tm-583-festava-live
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                            <a class="nav-link" href="about.php">About</a>
                         </li>
 
                         <li class="nav-item">
@@ -92,7 +92,7 @@ https://templatemo.com/tm-583-festava-live
                         </li>
                     </ul>
 
-                    <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                    <a href="ticket.php" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
                 </div>
             </div>
         </nav>
@@ -105,9 +105,9 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
-                        <small>NuSoundsTara Presents</small>
+                        <small>Festava Live Presents</small>
 
-                        <h1 class="text-white mb-5">Night Live 2024</h1>
+                        <h1 class="text-white mb-5">Night Live 2023</h1>
 
                         <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
                     </div>
@@ -116,14 +116,14 @@ https://templatemo.com/tm-583-festava-live
                         <div class="date-wrap">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-clock me-2"></i>
-                                20 - 22<sup>th</sup>, Feb 2024
+                                10 - 12<sup>th</sup>, Dec 2023
                             </h5>
                         </div>
 
                         <div class="location-wrap mx-auto py-3 py-lg-0">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-geo-alt me-2"></i>
-                                Kopi Vokasi, Indonesia
+                                National Center, United States
                             </h5>
                         </div>
 
@@ -163,43 +163,88 @@ https://templatemo.com/tm-583-festava-live
             </div>
         </section>
 
-
-        <section class="about-section section-padding" id="section_2">
+        <section class="topics-section section-padding pb-0" id="section_3">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                        <div class="services-info">
-                            <h2 class="text-white mb-4">About NuSoundsTara 2024</h2>
-
-                            <p class="text-white">NuSoundsTara merupakan sebuah website yang menyediakan informasi-informasi tentang konser ataupun festival yang akan atau sudah diadakan di Indonesia.</p>
-
-                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
-
-                            <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
-                                website without a permission.</p>
-
-                            <h6 class="text-white mt-4">Whole Night Party</h6>
-
-                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h2 class=" mb-4 text-center section-title">Event Up Coming</h2>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12">
-                        <div class="about-text-wrap">
-                            <img src="images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-overlay">
+                            <a href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                                    class="custom-block-image img-fluid" alt="">
+                            </a>
 
-                            <div class="about-text-info d-flex">
-                                <div class="d-flex">
-                                    <i class="about-text-icon bi-person"></i>
-                                </div>
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 class="mb-1">
+                                    <a href="listing-page.html">
+                                        Productivity
+                                    </a>
+                                </h5>
 
+                                <p class="p-color mb-0">50 Episodes</p>
+                            </div>
+                        </div>
+                    </div>
 
-                                <div class="ms-4">
-                                    <h3>a happy moment</h3>
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-overlay">
+                            <a href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                                    class="custom-block-image img-fluid" alt="">
+                            </a>
 
-                                    <p class="mb-0">your amazing festival experience with us</p>
-                                </div>
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 class="mb-1">
+                                    <a href="listing-page.html">
+                                        Technician
+                                    </a>
+                                </h5>
+
+                                <p class="p-color mb-0">12 Episodes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-overlay">
+                            <a href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                                    class="custom-block-image img-fluid" alt="">
+                            </a>
+
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 class="mb-1">
+                                    <a href="listing-page.html">
+                                        Mindfullness
+                                    </a>
+                                </h5>
+
+                                <p class="p-color mb-0">35 Episodes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-overlay">
+                            <a href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="images/edward-unsplash-blur.jpg"
+                                    class="custom-block-image img-fluid" alt="">
+                            </a>
+
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 class="mb-1">
+                                    <a href="listing-page.html">
+                                        Cooking
+                                    </a>
+                                </h5>
+
+                                <p class="p-color mb-0">12 Episodes</p>
                             </div>
                         </div>
                     </div>
@@ -208,13 +253,12 @@ https://templatemo.com/tm-583-festava-live
             </div>
         </section>
 
-
         <section class="artists-section section-padding" id="section_3">
             <div class="container">
                 <div class="row justify-content-center">
 
                     <div class="col-12 text-center">
-                        <h2 class="mb-4">Meet Artists</h1>
+                        <h2 class="mb-4">Popular Artist</h1>
                     </div>
 
                     <div class="col-lg-5 col-12">
@@ -444,7 +488,7 @@ https://templatemo.com/tm-583-festava-live
                                 <li class="pricing-list-item">standard content</li>
                             </ul>
 
-                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.php">
                                 <span>Buy Ticket</span>
                                 <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                                     <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
@@ -479,7 +523,7 @@ https://templatemo.com/tm-583-festava-live
                                 <li class="pricing-list-item">live chat support</li>
                             </ul>
 
-                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.php">
                                 <span>Buy Ticket</span>
                                 <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                                     <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
