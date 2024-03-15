@@ -19,7 +19,7 @@ https://templatemo.com/tm-583-festava-live
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #7fffd4;
-  --link-hover-color: #b22727;
+  --link-hover-color: #f8cb2e;
 
   --body-font-family: "Outfit", sans-serif;
 
@@ -266,6 +266,10 @@ strong {
   color: var(--primary-color);
 }
 
+.active {
+  color: var(--primary-color) !important;
+}
+
 .nav-tabs h5 {
   color: var(--p-color);
   margin-bottom: 0;
@@ -336,7 +340,7 @@ strong {
 
 .custom-block:hover {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border-color: transparent;
   transform: translateY(-3px);
 }

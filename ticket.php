@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Festava Live - Ticket HTML Form</title>
+    <title>NuSoundTara - Ticket HTML Form</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,7 @@
 
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-    <link href="css/templatemo-festava-live.css" rel="stylesheet">
-    <!--
-
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
--->
+    <link href="css/nusoundtara.css" rel="stylesheet">
 
 </head>
 
@@ -55,7 +48,7 @@ https://templatemo.com/tm-583-festava-live
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    Festava Live
+                    NuSoundTara
                 </a>
 
                 <a href="ticket.php" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
@@ -68,34 +61,34 @@ https://templatemo.com/tm-583-festava-live
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php#section_1">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php#section_2">About</a>
+                            <a class="nav-link" href="about.php">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php#section_3">Artists</a>
+                            <a class="nav-link click-scroll" href="index.php#section_event">Event</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="index.php#section_4">Schedule</a>
                         </li>
-
+                        
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="index.php#section_5">Pricing</a>
                         </li>
 
+                        
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php#section_6">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
-
-                    <a href="ticket.php" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
                 </div>
             </div>
         </nav>
+
 
 
         <section class="ticket-section section-padding">
@@ -172,7 +165,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">Festava Live</h2>
+                        <h2 class="text-white mb-lg-0">NuSoundTara</h2>
                     </div>
 
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -286,7 +279,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
+                        <p class="copyright-text">Copyright © 2036 NuSoundTara Company</p>
                         <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
                     </div>
 

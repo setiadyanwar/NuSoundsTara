@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NuSoundTara - Ticket HTML Form</title>
+    <title>Festava Live - Ticket HTML Form</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,15 +24,17 @@
     <link href="css/nusoundtara.css" rel="stylesheet">
     <!--
 
+TemplateMo 583 Festava Live
+
+https://templatemo.com/tm-583-festava-live
+
 -->
 
 </head>
 
-<body>
-
-    <main>
-
-        <header class="site-header">
+<main>
+    
+<header class="site-header">
             <div class="container">
                 <div class="row">
 
@@ -48,10 +50,10 @@
         </header>
 
 
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg bg-black">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    NuSoundTara
+                    Festava Live
                 </a>
 
                 <a href="ticket.php" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
@@ -68,15 +70,23 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="about.php">About</a>
+                            <a class="nav-link click-scroll" href="about.php">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php">Pricing</a>
+                            <a class="nav-link click-scroll" href="index.php">Artists</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="contact.php">Contact</a>
+                            <a class="nav-link" href="index.php">Schedule</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Pricing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.php">Contact</a>
                         </li>
                     </ul>
 
@@ -85,62 +95,88 @@
             </div>
         </nav>
 
-
-        <section class="about-section section-padding" id="section_2">
+<section class="contact-section section-padding mt-5" id="section_6">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                        <div class="services-info">
-                            <h2 class="text-white mb-4">About NuSoundTara 2022</h2>
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h2 class="text-center mb-4">Interested? Let's talk</h2>
 
-                            <p class="text-white">NuSoundTara is free CSS template provided by TemplateMo website. This
-                                layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for
-                                your commercial website.</p>
+                        <nav class="d-flex justify-content-center">
+                            <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
+                                role="tablist">
+                                <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactForm" type="button" role="tab"
+                                    aria-controls="nav-ContactForm" aria-selected="false">
+                                    <h5>Contact Form</h5>
+                                </button>
 
-                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
+                                <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-ContactMap" type="button" role="tab"
+                                    aria-controls="nav-ContactMap" aria-selected="false">
+                                    <h5>Google Maps</h5>
+                                </button>
+                            </div>
+                        </nav>
 
-                            <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
-                                website without a permission.</p>
+                        <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel"
+                                aria-labelledby="nav-ContactForm-tab">
+                                <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post"
+                                    role="form">
+                                    <div class="contact-form-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="text" name="contact-name" id="contact-name"
+                                                    class="form-control" placeholder="Full name" required>
+                                            </div>
 
-                            <h6 class="text-white mt-4">Whole Night Party</h6>
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <input type="email" name="contact-email" id="contact-email"
+                                                    pattern="[^ @]*@[^ @]*" class="form-control"
+                                                    placeholder="Email address" required>
+                                            </div>
+                                        </div>
 
-                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
-                        </div>
-                    </div>
+                                        <input type="text" name="contact-company" id="contact-company"
+                                            class="form-control" placeholder="Company" required>
 
-                    <div class="col-lg-6 col-12">
-                        <div class="about-text-wrap">
-                            <img src="images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
+                                        <textarea name="contact-message" rows="3" class="form-control"
+                                            id="contact-message" placeholder="Message"></textarea>
 
-                            <div class="about-text-info d-flex">
-                                <div class="d-flex">
-                                    <i class="about-text-icon bi-person"></i>
-                                </div>
+                                        <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                                            <button type="submit" class="form-control">Send message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
 
-
-                                <div class="ms-4">
-                                    <h3>a happy moment</h3>
-
-                                    <p class="mb-0">your amazing festival experience with us</p>
-                                </div>
+                            <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel"
+                                aria-labelledby="nav-ContactMap-tab">
+                                <iframe class="google-map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29974.469402870927!2d120.94861466021855!3d14.106066818082482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd777b1ab54c8f%3A0x6ecc514451ce2be8!2sTagaytay%2C%20Cavite%2C%20Philippines!5e1!3m2!1sen!2smy!4v1670344209509!5m2!1sen!2smy"
+                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </section>
-    </main>
+</section>
+</main>
 
 
-    <footer class="site-footer">
+
+
+<footer class="site-footer">
         <div class="site-footer-top">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">NuSoundTara</h2>
+                        <h2 class="text-white mb-lg-0">Festava Live</h2>
                     </div>
 
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -254,7 +290,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 NuSoundTara Company</p>
+                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
                         <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
                     </div>
 
@@ -278,7 +314,11 @@
         </div>
     </footer>
 
+    <!--
 
+T e m p l a t e M o
+
+-->
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
