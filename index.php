@@ -105,7 +105,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
-                        <small>Festava Live Presents</small>
+                        <small>NuSoundsTara</small>
 
                         <h1 class="text-white mb-5">Night Live 2023</h1>
 
