@@ -9,7 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+<<<<<<< HEAD
     <title>NuSoundTara</title>
+=======
+    <title>NuSoundsTara</title>
+>>>>>>> c36b93ed80109ca8efc5ce9a8b36ef2518c5df2e
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -105,7 +109,11 @@
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
+<<<<<<< HEAD
                         <small>We are Presents</small>
+=======
+                        <small>NuSoundsTara</small>
+>>>>>>> c36b93ed80109ca8efc5ce9a8b36ef2518c5df2e
 
                         <h1 class="text-white mb-5">NuSoundTara 2024</h1>
 
