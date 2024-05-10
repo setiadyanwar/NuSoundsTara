@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
+
     <title>NuSoundTara</title>
-=======
+
     <title>NuSoundsTara</title>
->>>>>>> c36b93ed80109ca8efc5ce9a8b36ef2518c5df2e
+
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,7 @@
 
     <main>
 
-        <header class="site-header">
+    <header class="site-header">
             <div class="container">
                 <div class="row">
 
@@ -52,10 +52,9 @@
 
                 </div>
             </div>
-        </header>
+    </header>    
 
-
-        <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
                     NuSoundTara
@@ -79,16 +78,16 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_event">Event</a>
+                            <a class="nav-link" href="event.php">Event</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_4">Schedule</a>
                         </li>
                         
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_5">Pricing</a>
-                        </li>
+                        </li> -->
 
                         
                         <li class="nav-item">
@@ -99,39 +98,35 @@
                     <a href="ticket.php" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
                 </div>
             </div>
-        </nav>
+    </nav>
+        
 
 
-        <section class="hero-section" id="section_1">
+    <section class="hero-section" id="section_1">
             <div class="section-overlay"></div>
 
             <div class="container d-flex justify-content-center align-items-center">
                 <div class="row">
 
                     <div class="col-12 mt-auto mb-5 text-center">
-<<<<<<< HEAD
                         <small>We are Presents</small>
-=======
                         <small>NuSoundsTara</small>
->>>>>>> c36b93ed80109ca8efc5ce9a8b36ef2518c5df2e
-
                         <h1 class="text-white mb-5">NuSoundTara 2024</h1>
-
-                        <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
+                        <a class="btn custom-btn btn-lg" href="event.php">Let's begin</a>
                     </div>
 
                     <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
                         <div class="date-wrap">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-clock me-2"></i>
-                                10 - 12<sup>th</sup>, Dec 2023
+                                18 - 20<sup>th</sup>, March 2024
                             </h5>
                         </div>
 
                         <div class="location-wrap mx-auto py-3 py-lg-0">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-geo-alt me-2"></i>
-                                National Center, United States
+                                Sekolah Vokasi IPB, Bogor Indonesia
                             </h5>
                         </div>
 
@@ -171,9 +166,9 @@
                     Your browser does not support the video tag.
                 </video>
             </div>
-        </section>
+    </section>
 
-        <section class="topics-section section-padding pb-0" id="section_event">
+    <section class="topics-section section-padding pb-0" id="section_event">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-lg-12 col-12">
@@ -181,85 +176,7 @@
                             <h2 class=" mb-4 text-center section-title">Event Up Coming</h2>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
-                                    class="custom-block-image img-fluid" alt="">
-                            </a>
-
-                            <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
-                                        Productivity
-                                    </a>
-                                </h5>
-
-                                <p class="p-color mb-0">50 Episodes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
-                                    class="custom-block-image img-fluid" alt="">
-                            </a>
-
-                            <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
-                                        Technician
-                                    </a>
-                                </h5>
-
-                                <p class="p-color mb-0">12 Episodes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
-                                    class="custom-block-image img-fluid" alt="">
-                            </a>
-
-                            <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
-                                        Mindfullness
-                                    </a>
-                                </h5>
-
-                                <p class="p-color mb-0">35 Episodes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/edward-unsplash-blur.jpg"
-                                    class="custom-block-image img-fluid" alt="">
-                            </a>
-
-                            <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
-                                        Cooking
-                                    </a>
-                                </h5>
-
-                                <p class="p-color mb-0">12 Episodes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
+                    <div class="row">
                     <div class="col-lg-12 col-12">
                     
                     </div>
@@ -267,18 +184,17 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                                <img src="images/events/Rp800.000-Rp11.000.000.png"
                                     class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
                                     <a href="listing-page.html">
-                                        Productivity
+                                        ColdPlay music
                                     </a>
                                 </h5>
-
-                                <p class="p-color mb-0">50 Episodes</p>
+                                <p class=" fw-normal mb-0">Rp800.000 - Rp11M</p>
                             </div>
                         </div>
                     </div>
@@ -286,18 +202,18 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                                <img src="images/events/Rp900.000-Rp5.000.000.png"
                                     class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
                                     <a href="listing-page.html">
-                                        Technician
+                                        Ed sheeran
                                     </a>
                                 </h5>
 
-                                <p class="p-color mb-0">12 Episodes</p>
+                                <p class="fw-normal mb-0">Rp900.000 - Rp5M</p>
                             </div>
                         </div>
                     </div>
@@ -305,18 +221,18 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                                <img src="images/events/Start from 125k-150k.png"
                                     class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
                                     <a href="listing-page.html">
-                                        Mindfullness
+                                        VocaNight
                                     </a>
                                 </h5>
 
-                                <p class="p-color mb-0">35 Episodes</p>
+                                <p class="fw-normal mb-0">Rp125k-Rp150k</p>
                             </div>
                         </div>
                     </div>
@@ -324,27 +240,27 @@
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/edward-unsplash-blur.jpg"
+                                <img src="images/events/Rp1.380.000-Rp3.800.000.png"
                                     class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
                                     <a href="listing-page.html">
-                                        Cooking
+                                        Born Pink
                                     </a>
                                 </h5>
 
-                                <p class="p-color mb-0">12 Episodes</p>
+                                <p class="fw-normal mb-0">Rp1.380K - Rp3.800K</p>
                             </div>
                         </div>
                     </div>
-
+                </div>
                 </div>
             </div>
-        </section>
+    </section>
 
-        <section class="artists-section section-padding" id="section_3">
+    <section class="artists-section section-padding" id="section_3">
             <div class="container">
                 <div class="row justify-content-center">
 
@@ -355,14 +271,14 @@
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                                <img src="images/artists/isyana.jpg"
                                     class="artists-image img-fluid">
                             </div>
 
                             <div class="artists-hover">
                                 <p>
-                                    <strong>Name:</strong>
-                                    Madona
+                                    <strong>Name: </strong>
+                                    Isyana Saraswati
                                 </p>
 
                                 <p>
@@ -722,7 +638,7 @@
 
                     <p class="text-white d-flex">
                         <a href="mailto:hello@company.com" class="site-footer-link">
-                            hello@company.com
+                            nusoundstara@company.com
                         </a>
                     </p>
                 </div>
@@ -731,7 +647,7 @@
                     <h5 class="site-footer-title mb-3">Location</h5>
 
                     <p class="text-white d-flex mt-3 mb-2">
-                        Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                    Sekolah Vokasi IPB, Bogor Indonesia</p>
 
                     <a class="link-fx-1 color-contrast-higher mt-3" href="#">
                         <span>Our Maps</span>
@@ -753,7 +669,6 @@
 
                     <div class="col-lg-3 col-12 mt-5">
                         <p class="copyright-text">Copyright © 2036 NuSoundTara Company</p>
-                        <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">
@@ -775,12 +690,6 @@
             </div>
         </div>
     </footer>
-
-    <!--
-
-T e m p l a t e M o
-
--->
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>

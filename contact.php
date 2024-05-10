@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Festava Live - Ticket HTML Form</title>
+    <title>NusoundsTara Live - Ticket HTML Form</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,14 +22,6 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/nusoundtara.css" rel="stylesheet">
-    <!--
-
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
--->
-
 </head>
 
 <main>
@@ -53,7 +45,7 @@ https://templatemo.com/tm-583-festava-live
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    Festava Live
+                    NusoundsTara Live
                 </a>
 
                 <a href="ticket.php" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
@@ -73,17 +65,17 @@ https://templatemo.com/tm-583-festava-live
                             <a class="nav-link click-scroll" href="about.php">About</a>
                         </li>
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link click-scroll" href="index.php">Artists</a>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="index.php">Schedule</a>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="index.php">Pricing</a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item">
                             <a class="nav-link active" href="index.php">Contact</a>
@@ -176,7 +168,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">Festava Live</h2>
+                        <h2 class="text-white mb-lg-0">NusoundsTara Live</h2>
                     </div>
 
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -260,7 +252,7 @@ https://templatemo.com/tm-583-festava-live
 
                     <p class="text-white d-flex">
                         <a href="mailto:hello@company.com" class="site-footer-link">
-                            hello@company.com
+                            nusoundstara@company.com
                         </a>
                     </p>
                 </div>
@@ -269,7 +261,7 @@ https://templatemo.com/tm-583-festava-live
                     <h5 class="site-footer-title mb-3">Location</h5>
 
                     <p class="text-white d-flex mt-3 mb-2">
-                        Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                    Sekolah Vokasi IPB, Bogor Indonesia</p>
 
                     <a class="link-fx-1 color-contrast-higher mt-3" href="#">
                         <span>Our Maps</span>
@@ -290,8 +282,7 @@ https://templatemo.com/tm-583-festava-live
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
-                        <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
+                        <p class="copyright-text">Copyright © 2036 NusoundsTara Live Company</p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">
@@ -314,11 +305,6 @@ https://templatemo.com/tm-583-festava-live
         </div>
     </footer>
 
-    <!--
-
-T e m p l a t e M o
-
--->
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

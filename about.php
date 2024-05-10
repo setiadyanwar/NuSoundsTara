@@ -71,9 +71,9 @@
                             <a class="nav-link active" href="about.php">About</a>
                         </li>
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link click-scroll" href="index.php">Pricing</a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="contact.php">Contact</a>
@@ -255,7 +255,6 @@
 
                     <div class="col-lg-3 col-12 mt-5">
                         <p class="copyright-text">Copyright © 2036 NuSoundTara Company</p>
-                        <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">
