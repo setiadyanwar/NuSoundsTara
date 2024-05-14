@@ -73,9 +73,20 @@
                             $query = mysqli_query($con, "SELECT * FROM users WHERE username ='$username'");
 
                             $countdata = mysqli_num_rows($query);
+                            $data = mysqli_fetch_array($query);
                             
                             if($countdata >0){
-                              
+                              if(password_verify($password, $data['password'])){
+                                $_SESSION['username'] = $username;
+                                $_SESSION['login'] = true;
+                                header("location:../adminpanel/html/admin.php");
+                              }else{
+                               ?>
+                                <div class="alert alert-warning" role="alert">
+                                  Password salah
+                                </div>
+                                <?php
+                              }
                             }else{
                               ?>
                               <div class="alert alert-warning" role="alert">
