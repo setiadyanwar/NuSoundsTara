@@ -58,27 +58,28 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="about.php">About</a>
+                            <a class="nav-link" href="about.php">About</a>
                         </li>
 
-                        <!-- <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php">Artists</a>
-                        </li> -->
-
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="index.php">Schedule</a>
-                        </li> -->
-
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="index.php">Pricing</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="event.php">Event</a>
+                        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Contact</a>
+                            <a class="nav-link" href="index.php#section_4">Schedule</a>
+                        </li>
+                        
+                        <!-- <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Pricing</a>
+                        </li> -->
+
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.php">Contact</a>
                         </li>
                     </ul>
 
@@ -145,10 +146,7 @@
 
                             <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel"
                                 aria-labelledby="nav-ContactMap-tab">
-                                <iframe class="google-map"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29974.469402870927!2d120.94861466021855!3d14.106066818082482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd777b1ab54c8f%3A0x6ecc514451ce2be8!2sTagaytay%2C%20Cavite%2C%20Philippines!5e1!3m2!1sen!2smy!4v1670344209509!5m2!1sen!2smy"
-                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4628252163325!2d106.80353987475391!3d-6.589250493404408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d2e602b501%3A0x25a12f0f97fac4ee!2sSchool%20of%20Vocational%20Studies%20-%20IPB%20University!5e0!3m2!1sen!2sid!4v1716542021376!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
                             </div>
                         </div>
@@ -168,7 +166,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">NusoundsTara Live</h2>
+                        <h2 class="text-white mb-lg-0">NuSoundTara</h2>
                     </div>
 
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -216,23 +214,19 @@
 
                     <ul class="site-footer-links">
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Home</a>
+                            <a href="index.php" class="site-footer-link">Home</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">About</a>
+                            <a href="about.php" class="site-footer-link">About</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Artists</a>
+                            <a href="event.php" class="site-footer-link">Event</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Schedule</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Pricing</a>
+                            <a href="index.php" class="site-footer-link">Schedule</a>
                         </li>
 
                         <li class="site-footer-link-item">
@@ -263,7 +257,7 @@
                     <p class="text-white d-flex mt-3 mb-2">
                     Sekolah Vokasi IPB, Bogor Indonesia</p>
 
-                    <a class="link-fx-1 color-contrast-higher mt-3" href="#">
+                    <a class="link-fx-1 color-contrast-higher mt-3" href="contact.php">
                         <span>Our Maps</span>
                         <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
@@ -282,7 +276,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 NusoundsTara Live Company</p>
+                        <p class="copyright-text">Copyright © 2024 NuSoundTara Company</p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">

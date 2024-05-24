@@ -169,6 +169,52 @@
     </section>
 
     <section class="topics-section section-padding pb-0" id="section_event">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-12 col-12">
+                <div class="section-title-wrap mb-5">
+                    <h2 class=" mb-4 text-center section-title">Event Up Coming</h2>
+                </div>
+            </div>
+            <div class="row" id="event-list">
+                <!-- Event items will be injected here by JavaScript -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('fetch_events.php')
+            .then(response => response.json())
+            .then(data => {
+                const eventList = document.getElementById('event-list');
+                data.forEach(event => {
+                    const eventItem = document.createElement('div');
+                    eventItem.classList.add('col-lg-3', 'col-md-6', 'col-12', 'mb-4', 'mb-lg-0');
+                    eventItem.innerHTML = `
+                        <div class="custom-block custom-block-overlay">
+                            <a href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="${event.image}" class="custom-block-image img-fluid" alt="">
+                            </a>
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 class="mb-1">
+                                    <a href="listing-page.html">
+                                        ${event.title}
+                                    </a>
+                                </h5>
+                                <p class="fw-normal mb-0">${event.description}</p>
+                            </div>
+                        </div>
+                    `;
+                    eventList.appendChild(eventItem);
+                });
+            });
+    });
+</script>
+
+
+<!--     <section class="topics-section section-padding pb-0" id="section_event">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-lg-12 col-12">
@@ -258,7 +304,7 @@
                 </div>
                 </div>
             </div>
-    </section>
+    </section> -->
 
     <section class="artists-section section-padding" id="section_3">
             <div class="container">
@@ -606,23 +652,19 @@
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">About</a>
+                            <a href="about.php" class="site-footer-link">About</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Artists</a>
+                            <a href="event.php" class="site-footer-link">Event</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Schedule</a>
+                            <a href="#section_4" class="site-footer-link">Schedule</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Pricing</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Contact</a>
+                            <a href="contact.php" class="site-footer-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -649,7 +691,7 @@
                     <p class="text-white d-flex mt-3 mb-2">
                     Sekolah Vokasi IPB, Bogor Indonesia</p>
 
-                    <a class="link-fx-1 color-contrast-higher mt-3" href="#">
+                    <a class="link-fx-1 color-contrast-higher mt-3" href="contact.php">
                         <span>Our Maps</span>
                         <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
@@ -668,7 +710,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 NuSoundTara Company</p>
+                        <p class="copyright-text">Copyright © 2024 NuSoundTara Company</p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">

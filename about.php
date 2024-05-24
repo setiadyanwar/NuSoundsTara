@@ -64,19 +64,28 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link active" href="about.php">About</a>
                         </li>
 
-                        <!-- <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.php">Pricing</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="event.php">Event</a>
+                        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="contact.php">Contact</a>
+                            <a class="nav-link" href="index.php#section_4">Schedule</a>
+                        </li>
+                        
+                        <!-- <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Pricing</a>
+                        </li> -->
+
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
 
@@ -134,7 +143,7 @@
     </main>
 
 
-    <footer class="site-footer">
+   <footer class="site-footer">
         <div class="site-footer-top">
             <div class="container">
                 <div class="row">
@@ -188,7 +197,7 @@
 
                     <ul class="site-footer-links">
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Home</a>
+                            <a href="index.php" class="site-footer-link">Home</a>
                         </li>
 
                         <li class="site-footer-link-item">
@@ -196,19 +205,15 @@
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Artists</a>
+                            <a href="event.php" class="site-footer-link">Event</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Schedule</a>
+                            <a href="index.php" class="site-footer-link">Schedule</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Pricing</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Contact</a>
+                            <a href="contact.php" class="site-footer-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -224,7 +229,7 @@
 
                     <p class="text-white d-flex">
                         <a href="mailto:hello@company.com" class="site-footer-link">
-                            hello@company.com
+                            nusoundstara@company.com
                         </a>
                     </p>
                 </div>
@@ -233,9 +238,9 @@
                     <h5 class="site-footer-title mb-3">Location</h5>
 
                     <p class="text-white d-flex mt-3 mb-2">
-                        Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                    Sekolah Vokasi IPB, Bogor Indonesia</p>
 
-                    <a class="link-fx-1 color-contrast-higher mt-3" href="#">
+                    <a class="link-fx-1 color-contrast-higher mt-3" href="contact.php">
                         <span>Our Maps</span>
                         <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
@@ -254,7 +259,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 NuSoundTara Company</p>
+                        <p class="copyright-text">Copyright © 2024 NuSoundTara Company</p>
                     </div>
 
                     <div class="col-lg-8 col-12 mt-lg-5">
