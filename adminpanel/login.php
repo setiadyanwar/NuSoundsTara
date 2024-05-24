@@ -79,7 +79,7 @@
                               if(password_verify($password, $data['password'])){
                                 $_SESSION['username'] = $username;
                                 $_SESSION['login'] = true;
-                                header("location:../adminpanel/html/admin.php");
+                                header("location:../adminpanel/");
                               }else{
                                ?>
                                 <div class="alert alert-warning" role="alert">
