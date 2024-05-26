@@ -89,7 +89,7 @@ if (!isset($_SESSION['username'])) {
                                 <div class="form-group" style="margin-bottom: 20px;">
                                     <label class="col-sm-2 col-sm-4 control-label"></label>
                                     <div class="col-sm-8">
-                                        <input type="submit" value="Simpan" class="btn btn-sm btn-primary" />
+                                        <input type="submit" value="Simpan" class="btn btn-sm btn-primary"style="background-color: #ee5007; border-color:#f8cb2e;" />
                                     </div>
                                 </div>
                                 <div style="margin-top: 20px;"></div>
