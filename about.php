@@ -101,20 +101,13 @@
 
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                         <div class="services-info">
-                            <h2 class="text-white mb-4">About NuSoundTara 2022</h2>
+                            <h2 class="text-white mb-4">About NuSoundTara 2024</h2>
 
-                            <p class="text-white">NuSoundTara is free CSS template provided by TemplateMo website. This
-                                layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for
-                                your commercial website.</p>
+                            <p class="text-white">
+                            Nusoundstara adalah platform jual beli tiket konser terdepan di Indonesia yang dirancang untuk memudahkan penggemar musik dalam mendapatkan tiket konser favorit mereka. Kami menawarkan berbagai tiket untuk konser artis lokal dan internasional, memastikan bahwa setiap penggemar memiliki kesempatan untuk merasakan pengalaman konser yang tak terlupakan.
+                            Di Nusoundstara, kami memahami betapa pentingnya setiap konser bagi para penggemar. Oleh karena itu, kami berkomitmen untuk memberikan layanan terbaik dengan proses pembelian tiket yang mudah, cepat, dan aman. 
+                            </p>
 
-                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
-
-                            <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
-                                website without a permission.</p>
-
-                            <h6 class="text-white mt-4">Whole Night Party</h6>
-
-                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
                         </div>
                     </div>
 
