@@ -1,18 +1,30 @@
 <?php
-// koneksi database
-include '../koneksi.php';
+include '../config.php';
 
-// menangkap data yang di kirim dari form
-$id = $_POST['id_wisata'];
-$nama = $_POST['nama_wisata'];
-$alamat = $_POST['alamat'];
-$deskripsi = $_POST['deskripsi'];
-$harga_tiket = $_POST['harga_tiket'];
-$latitude = $_POST['latitude'];
-$longitude = $_POST['longitude'];
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $id = $_POST['id'];
+    $title = $_POST['title'];
+    $description = $_POST['description'];
+    $date = $_POST['date'];
+    $price = $_POST['price'];
+    $image = $_POST['image'];
 
-// update data ke database
-mysqli_query($koneksi, "update wisata set nama_wisata='$nama', alamat='$alamat', deskripsi='$deskripsi', harga_tiket='$harga_tiket', latitude='$latitude', longitude='$longitude' where id_wisata='$id'");
+    $sql = "UPDATE festival SET 
+            title='$title', 
+            description='$description', 
+            date='$date', 
+            price='$price', 
+            image='$image' 
+            WHERE id='$id'";
 
-// mengalihkan halaman kembali ke index.php
-header("location:tampil_data.php");
+    if ($conn->query($sql) === TRUE) {
+        header('Location: tampil_data.php');
+        exit;
+    } else {
+       
+        echo '<div class="alert alert-danger" role="alert">Error: ' . $sql . '<br>' . $conn->error . '</div>';
+    }
+}
+
+$conn->close();
+?>

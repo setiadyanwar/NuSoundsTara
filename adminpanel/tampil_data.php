@@ -3,7 +3,7 @@ session_start();
 // if ($_SESSION['status'] != "login") {
 //     header("location:../tampil_data.php?pesan=belum_login");
 // }
-include "../koneksi.php";
+include "../config.php";
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,6 @@ include "../koneksi.php";
             <!-- Main Content -->
             <div id="content">
                 <?php include "menu_topbar.php"; ?>
-
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
@@ -46,36 +45,42 @@ include "../koneksi.php";
                                     <?php
                                         $sql = "SELECT * FROM festival";
                                         $result = $conn->query($sql);
+                                        $no = 1;
 
                                         if ($result->num_rows > 0) {
                                             while($row = $result->fetch_assoc()) {
                                                 $imagePath = '../' . $row['image']; // Adjust the path accordingly
                                                 echo '<tr>';
-                                                echo '<td><img src="'.$imagePath.'" alt="'.$row['title'].'"></td>';
+                                                echo '<td>'.$no.'</td>';
+                                                echo '<td><img src="'.$imagePath.'" alt="'.$row['title'].'" style="width:100px; height:auto;"></td>';
                                                 echo '<td>'.$row['title'].'</td>';
                                                 echo '<td>'.$row['description'].'</td>';
                                                 echo '<td>'.$row['date'].'</td>';
                                                 echo '<td>Rp'.number_format($row['price'], 2, ',', '.').'</td>';
                                                 echo '<td>';
-                                                echo '<a href="edit.php?id='.$row['id'].'" class="btn btn-warning btn-sm">Ubah</a> ';
+                                                echo '<a href="edit_data.php?id='.$row['id'].'" class="btn btn-warning btn-sm">Ubah</a> ';
                                                 echo '<a href="delete.php?id='.$row['id'].'" class="btn btn-danger btn-sm">Hapus</a>';
                                                 echo '</td>';
                                                 echo '</tr>';
-                                                                            }
-                                                } else {
-                                                    echo "<tr><td colspan='6'>No results</td></tr>";
-                                                }
-                                                ?>
+                                                $no++;
+                                            }
+                                        } else {
+                                            echo "<tr><td colspan='7'>No results</td></tr>";
+                                        }
+                                    ?>
                                     </tbody>
-                        </table>
-
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <?php include "footer.php"; ?>
+
         </div>
-
-        <?php include "footer.php"; ?>
-
     </div>
     <!-- End of Page Wrapper -->
+
+</body>
+</html>

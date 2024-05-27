@@ -1,7 +1,6 @@
-
 <?php 
-require "session.php";
-include '../config.php'; 
+// require "session.php";
+// include '../config.php'; 
 ?>
 
 <!DOCTYPE html>

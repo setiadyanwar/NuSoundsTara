@@ -1,6 +1,6 @@
 <?php
-    session_start();
-    require "../koneksi.php";
+    // session_start();
+    // require "../koneksi.php";
 
 ?>
 

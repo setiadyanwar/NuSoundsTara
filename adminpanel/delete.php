@@ -13,6 +13,6 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-<a href="index.php" class="btn btn-secondary mt-4">Kembali</a>
+<a href="tampil_data.php" class="btn btn-secondary mt-4">Kembali</a>
 
 <?php $conn->close(); ?>

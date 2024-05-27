@@ -1,10 +1,10 @@
 <?php
-include '../koneksi.php';
+// include '../koneksi.php';
 
-    session_start();
-    if ($_SESSION['status'] != "login") {
-        header("location:../tampil_data.php?pesan=belum_login");
-    }
+//     session_start();
+//     if ($_SESSION['status'] != "login") {
+//         header("location:../tampil_data.php?pesan=belum_login");
+//     }
     ?>
 
 <html lang="en">

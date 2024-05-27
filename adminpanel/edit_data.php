@@ -1,3 +1,19 @@
+<?php
+session_start();
+
+// Cek apakah pengguna sudah login
+// if (!isset($_SESSION['username'])) {
+//     // Pengguna belum login, arahkan ke halaman login atau tampilkan pesan kesalahan
+//     header("Location: login.php");
+//     exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna
+// }
+
+include '../config.php';
+$id = $_GET['id'];
+$query = mysqli_query($conn, "SELECT * FROM festival WHERE id='$id'");
+$data  = mysqli_fetch_array($query);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include "header.php"; ?>
@@ -16,7 +32,7 @@
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Edit Data Tempat Wisata</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Edit Data Event</h1>
                     </div>
 
                     <!-- DataTales Example -->
@@ -25,74 +41,50 @@
                             <h6 class="m-0 font-weight-bold text-primary">Edit Data</h6>
                         </div>
                         <div class="card-body">
-
-                            <?php
-                            include '../koneksi.php';
-                            $id = $_GET['id_wisata'];
-                            $query = mysqli_query($koneksi, "select * from wisata where id_wisata='$id'");
-                            $data  = mysqli_fetch_array($query);
-                            ?>
-
-                            <!-- </div> -->
                             <div class="panel-body">
                                 <form class="form-horizontal style-form" style="margin-top: 20px;" action="edit_aksi.php" method="post" enctype="multipart/form-data" name="form1" id="form1">
+                                    <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">ID Wisata</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">Title</label>
                                         <div class="col-sm-8">
-                                            <input name="id_wisata" type="text" id="id_wisata" class="form-control" value="<?php echo $data['id_wisata']; ?>" readonly />
-                                            <!--<span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>-->
+                                            <input name="title" type="text" class="form-control" value="<?php echo $data['title']; ?>" required />
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Nama Wisata</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">Description</label>
                                         <div class="col-sm-8">
-                                            <input name="nama_wisata" type="text" id="nama_wisata" class="form-control" value="<?php echo $data['nama_wisata']; ?>" required />
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Alamat</label>
-                                        <div class="col-sm-8">
-                                            <input name="alamat" class="form-control" id="alamat" type="text" value="<?php echo $data['alamat']; ?>" required />
+                                            <textarea name="description" class="form-control" required><?php echo $data['description']; ?></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Deskripsi</label>
+                                        <label class="col-sm-2 control-label">Date</label>
                                         <div class="col-sm-8">
-                                            <input name="deskripsi" class="form-control" id="deskripsi" type="text" value="<?php echo $data['deskripsi']; ?>" required />
+                                            <input name="date" class="form-control" type="date" value="<?php echo $data['date']; ?>" required />
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Harga Tiket</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">Price</label>
                                         <div class="col-sm-8">
-                                            <input name="harga_tiket" class="form-control" type="text" id="harga_tiket" type="text" value="<?php echo $data['harga_tiket']; ?>" required />
+                                            <input name="price" class="form-control" type="number" value="<?php echo $data['price']; ?>" step="0.01" required />
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Latitude</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">Image URL</label>
                                         <div class="col-sm-8">
-                                            <input name="latitude" class="form-control" id="latitude" type="text" value="<?php echo $data['latitude']; ?>" required />
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Longitude</label>
-                                        <div class="col-sm-8">
-                                            <input name="longitude" class="form-control" id="longitude" type="text" value="<?php echo $data['longitude']; ?>" required />
+                                            <input name="image" class="form-control" type="text" value="<?php echo $data['image']; ?>" required />
                                         </div>
                                     </div>
                                     <div class="form-group" style="margin-bottom: 20px;">
                                         <label class="col-sm-2 col-sm-2 control-label"></label>
                                         <div class="col-sm-8">
-                                            <input type="submit" value="Simpan" class="btn btn-sm btn-primary" />&nbsp;
+                                            <input type="submit" value="Simpan" class="btn btn-sm btn-primary" style="background-color: #ee5007; border-color:#f8cb2e;" />
                                         </div>
                                     </div>
                                     <div style="margin-top: 20px;"></div>
                                 </form>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
                 <!-- /.container-fluid -->
             </div>
@@ -103,5 +95,4 @@
     </div>
     <!-- End of Page Wrapper -->
 </body>
-
 </html>
