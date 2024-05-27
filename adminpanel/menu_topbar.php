@@ -1,13 +1,13 @@
 <?php
 
 // Mengecek apakah pengguna sudah login
-// if (isset($_SESSION['username'])) {
-//   $username = $_SESSION['username'];
-// } else {
-//   // Jika belum login, arahkan ke halaman login atau tampilkan nama default
-//   header("Location: login.php");
-//   exit();
-// }
+if (isset($_SESSION['username'])) {
+  $username = $_SESSION['username'];
+} else {
+  // Jika belum login, arahkan ke halaman login atau tampilkan nama default
+  header("Location: login.php");
+  exit();
+}
 ?>
 
 <!-- Topbar -->

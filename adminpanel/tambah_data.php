@@ -1,13 +1,5 @@
 <?php
 session_start();
-
-// Cek apakah pengguna sudah login
-// if (!isset($_SESSION['username'])) {
-//     // Pengguna belum login, arahkan ke halaman login atau tampilkan pesan kesalahan
-//     header("Location: login.php");
-//     exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna
-// }
-
 ?>
 
 <!DOCTYPE html>
@@ -157,4 +149,4 @@ session_start();
 
 </html>
 
-<?php $conn->close(); ?>
+<!-- <?php $conn->close(); ?> -->

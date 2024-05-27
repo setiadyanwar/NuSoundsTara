@@ -1,13 +1,9 @@
-<?php
-// session_start();
-// if ($_SESSION['status'] != "login") {
-//     header("location:../tampil_data.php?pesan=belum_login");
-// }
-// include "../koneksi.php";
-?>
+
 <?php 
-// require "session.php";
-// include '../config.php'; 
+require "session.php";
+include '../config.php'; 
+session_start();
+include "../koneksi.php";
 ?>
 
 <!DOCTYPE html>
