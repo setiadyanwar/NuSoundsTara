@@ -26,7 +26,9 @@
     <link href="../css/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/nusoundtara.css">
 
-    <title>Hello, world!</title>
+    <link rel="icon" href="../adminpanel/img/nusoundstara-white.png" type="image/x-icon">
+
+    <title>Login Your Account</title>
   </head>
   <body>
   <section class="vh-100" style="background-color: #f8cb2e;" >
@@ -35,9 +37,10 @@
       <div class="col col-xl-10">
         <div class="card" style="border-radius: 1rem;">
           <div class="row g-0">
-            <div class="col-md-6 col-lg-5 d-none d-md-block">
-              <img src="../images/brandi-redd-aJTiW00qqtI-unsplash.jpg"
-                alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem; " />
+          <div class="col-md-6 col-lg-5 d-none d-md-block" style="text-align: center;">
+            <img src="../adminpanel/img/nusoundstara-black.png"
+              alt="login form" class="img-fluid"
+              style="border-radius: 1rem 0 0 1rem; width: 50%; margin-top: 160px;" />
             </div>
             <div class="col-md-6 col-lg-7 d-flex align-items-center">
               <div class="card-body p-4 p-lg-5 text-black login-box">
