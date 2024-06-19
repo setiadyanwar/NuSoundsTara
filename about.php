@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NuSoundTara - Ticket HTML Form</title>
+    <title>NuSoundsTara - Ticket HTML Form</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
